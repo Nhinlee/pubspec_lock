@@ -33,4 +33,7 @@ enum DependencyType {
 
   /// Specified as "transitive" in pubspec.lock files
   transitive,
+
+  /// Specified as "direct overridden" in pubspec.lock files
+  override,
 }
